@@ -11,8 +11,17 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
-        This is the About page. You may modify the following file to customize its content:
+        This is my first Yii Framework website! I am editing the views file found in:
     </p>
 
     <code><?= __FILE__ ?></code>
+	<br><br>
+	<p>
+        A Couple Other Stacks/Frameworks I Use:
+		<ul>
+	<li>Laravel</li>
+	<li>LAMP</li>
+	<li>LEMP</li>
+</ul>
+    </p>
 </div>
